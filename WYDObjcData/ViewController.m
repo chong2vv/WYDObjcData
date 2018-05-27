@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "WYDStudent.h"
+#import "WYDObjcData.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    WYDStudent *student = [[WYDStudent alloc] init];
+    student.name = @"wyd";
+    student.age = 10;
+    student.numbers = [NSMutableArray arrayWithObjects:@"1",@"2",@"3", nil];
+    
+    NSDictionary *toDic = [WYDObjcData getObjectData:student];
+    NSLog(@"%@",toDic);
 }
 
 

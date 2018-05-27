@@ -15,6 +15,8 @@
 		157878F720BA769C00008FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157878F620BA769C00008FD5 /* main.m */; };
 		1578790120BA769C00008FD5 /* WYDObjcDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578790020BA769C00008FD5 /* WYDObjcDataTests.m */; };
 		1578790C20BA769C00008FD5 /* WYDObjcDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578790B20BA769C00008FD5 /* WYDObjcDataUITests.m */; };
+		1578791B20BA76BB00008FD5 /* WYDObjcData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578791A20BA76BB00008FD5 /* WYDObjcData.m */; };
+		1578791E20BA7E8D00008FD5 /* WYDStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578791D20BA7E8D00008FD5 /* WYDStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1578790720BA769C00008FD5 /* WYDObjcDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYDObjcDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1578790B20BA769C00008FD5 /* WYDObjcDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDObjcDataUITests.m; sourceTree = "<group>"; };
 		1578790D20BA769C00008FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1578791920BA76BB00008FD5 /* WYDObjcData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYDObjcData.h; sourceTree = "<group>"; };
+		1578791A20BA76BB00008FD5 /* WYDObjcData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDObjcData.m; sourceTree = "<group>"; };
+		1578791C20BA7E8D00008FD5 /* WYDStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYDStudent.h; sourceTree = "<group>"; };
+		1578791D20BA7E8D00008FD5 /* WYDStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				157878E820BA769C00008FD5 /* AppDelegate.m */,
 				157878EA20BA769C00008FD5 /* ViewController.h */,
 				157878EB20BA769C00008FD5 /* ViewController.m */,
+				1578791920BA76BB00008FD5 /* WYDObjcData.h */,
+				1578791A20BA76BB00008FD5 /* WYDObjcData.m */,
+				1578791C20BA7E8D00008FD5 /* WYDStudent.h */,
+				1578791D20BA7E8D00008FD5 /* WYDStudent.m */,
 				157878ED20BA769C00008FD5 /* Main.storyboard */,
 				157878F020BA769C00008FD5 /* Assets.xcassets */,
 				157878F220BA769C00008FD5 /* LaunchScreen.storyboard */,
@@ -265,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1578791E20BA7E8D00008FD5 /* WYDStudent.m in Sources */,
+				1578791B20BA76BB00008FD5 /* WYDObjcData.m in Sources */,
 				157878EC20BA769C00008FD5 /* ViewController.m in Sources */,
 				157878F720BA769C00008FD5 /* main.m in Sources */,
 				157878E920BA769C00008FD5 /* AppDelegate.m in Sources */,
